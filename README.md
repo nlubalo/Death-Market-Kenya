@@ -77,7 +77,7 @@ The graph above shows that it there is no much difference between a married pers
    
    
    
-   ##Prediction of fundraising  
+   ## Prediction of fundraising  
    Since the problem we are trying to solve is a classification problem. I  tried out a bunch of classification model to get the best prediction possible. The models are:
   -Linear regression <br>
   -AdaBoost Classifier<br>
