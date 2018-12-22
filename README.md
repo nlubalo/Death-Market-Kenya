@@ -56,7 +56,20 @@ The graph above shows that it there is no much difference between a married pers
    
   From above distribution, it is safe to say that size of an orbituary is not a very good indicator of whether a fundraising will be done or not. Although from the very far right of the distribution we have a few large orbituaries that are likely to call for fundraising, it is still not very significant.
   
-  
+ More Information about the analysis of these features and their significances can be found in the data_analysis notebook
+ 
+ 
+ # Kaplan-meier survival curve for Fundraising
+ ***survival curve*** defines the population distribution of a given lifetime.
+ For our case, our lifetime is the period from which a death announcemnt is made to the day they are buried. Our birth event is the announcement date and death event is the burial date.
+ 
+ Here I use the survival curve to show the population distribution of this lfetime for fundrasing feature.
+ 
+  ![alt text](https://raw.githubusercontent.com/nlubalo/Death-Market-Kenya/master/imgs/survival.png)
+     
+ 
+
+
    
 
  
