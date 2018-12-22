@@ -89,8 +89,8 @@ The graph above shows that it there is no much difference between a married pers
 I used ***confusion matrix, F1 score, sensitivity, and specificity*** to measure the performance of my models
    
 My best performing model is RandomForest with crossvalidation for feature selection.
-Applying cross validation selected 8 features as the important features to predict Fundraising. The 8 features are :
-'Size' <br> 'Word_Count',<br> 'No_of_Children',<br> 'Significant_Children',<br>'Significant_Relatives', <br>'Announce_to_Burial', <br>'No_of_Relatives', 'County_Burial'.<br>
+Applying cross validation selected 8 features as the important features to predict Fundraising. The 8 features are :<br>
+'Size' <br> 'Word_Count',<br> 'No_of_Children',<br> 'Significant_Children',<br>'Significant_Relatives', <br>'Announce_to_Burial', <br>'No_of_Relatives',<br> 'County_Burial'.<br>
 
 I divided my dataset into 80% for training and 20% for testing. Below are the results from Random Forest
 
