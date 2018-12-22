@@ -85,7 +85,7 @@ The graph above shows that it there is no much difference between a married pers
  I will only explain the results of the model that performed well. The rest of the models can be found in the prediction notebook file.
 
 ###### Measure of Accuracy
-I used confusion matrix, F1 score, sensitivity, and specificity to measure the performance of my models
+I used ***confusion matrix, F1 score, sensitivity, and specificity*** to measure the performance of my models
    
 My best performing model is RandomForest with crossvalidation for feature selection.
 Applying cross validation selected 8 features as the important features to predict Fundraising. The 8 features are 
@@ -97,7 +97,7 @@ I divided my dataset into 80% for training and 20% for testing. Below are the re
  -F1 score: ***0.8115***<br>
  -sensitivity:***0.79245***<br>
  -specificity:***0.7166***<br>
- -Confusion Matrix:
+ -Confusion Matrix:<br>
   ![alt text](https://raw.githubusercontent.com/nlubalo/Death-Market-Kenya/master/imgs/conf_matrix.png)
   
   
