@@ -6,7 +6,7 @@ Can we use this information to tell whether a fundraising will be held for the f
 ## Data Cleaning
 The dataset has total of total of ***1291*** data points ***39*** features. It has alot of missing fields and data entry errors that need to be sorted before any analysis can be done on it.
 
-
+![alt text](https://raw.githubusercontent.com/nlubalo/Death-Market-Kenya/imgs/missing_data.png)
 
 
 
