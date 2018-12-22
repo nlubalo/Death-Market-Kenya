@@ -16,8 +16,8 @@ I then dropped off all NaNs in the Fundrasing feature. I need it completely flle
 This left only 8% of data missing in the dataset so I dropped off all the NaNs leaving us with ****929**** data points and **19** features.
 
 Other data cleaning carried out are:
--Converting categrical features from texts to integer encoders
--Cleaning the data entry errors like in spellings like ***weekend*** and ***weeekend***, which makes these two appear like different entries.
+-Converting categrical features from texts to integer encoders<br>
+-Cleaning the data entry errors like in spellings like ***weekend*** and ***weeekend***, which makes these two appear like different entries.<br>
 
 More on data cleaning can be found in the ***data_cleaning*** notebook file
 
@@ -78,16 +78,37 @@ The graph above shows that it there is no much difference between a married pers
    
    # Prediction of Fundraising or not 
    Since the problem we are trying to solve is a classification problem. I  tried out a bunch of classification model to get the best prediction possible. The models are:
-  *Linear regression *
-  *AdaBoost Classifier*
-  *Random forest*
-  *Decision Tree*
+  -Linear regression <br>
+  -AdaBoost Classifier<br>
+  -Random forest<br>
+  -Decision Tree<br>
  I will only explain the results of the model that performed well. The rest of the models can be found in the prediction notebook file.
 
 ###### Measure of Accuracy
 I used confusion matrix, F1 score, sensitivity, and specificity to measure the performance of my models
    
+My best performing model is RandomForest with crossvalidation for feature selection.
+Applying cross validation selected 8 features as the important features to predict Fundraising. The 8 features are 
+***'Size', 'Word_Count', 'No_of_Children', 'Significant_Children','Significant_Relatives', 'Announce_to_Burial', 'No_of_Relatives', 'County_Burial'***.
 
+I divided my dataset into 80% for training and 20% for testing. Below are the results from Random Forest
+
+  ### Results
+ -F1 score: ***0.8115***<br>
+ -sensitivity:***0.79245***<br>
+ -specificity:***0.7166***<br>
+ -Confusion Matrix:
+  ![alt text](https://raw.githubusercontent.com/nlubalo/Death-Market-Kenya/master/imgs/conf_matrix.png)
+  
+  
+ 
+ 
+ 
+ -
+ 
+ 
+
+       
 
    
    
