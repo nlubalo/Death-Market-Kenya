@@ -15,7 +15,8 @@ I then dropped off all NaNs in the Fundrasing feature. I need it completely flle
 <br>
 This left only 8% of data missing in the dataset so I dropped off all the NaNs leaving us with ****929**** data points and **19** features.
 
-Other data cleaning carried out are:
+Other data cleaning carried out are:<br>
+
 -Converting categrical features from texts to integer encoders<br>
 -Cleaning the data entry errors like in spellings like ***weekend*** and ***weeekend***, which makes these two appear like different entries.<br>
 
@@ -59,7 +60,7 @@ The graph above shows that it there is no much difference between a married pers
  More Information about the analysis of these features and their significances can be found in the data_analysis notebook
  
  
- # Kaplan-meier survival curve for Fundraising
+ ## Kaplan-meier survival curve for Fundraising
  ***survival curve*** defines the population distribution of a given lifetime.
  For our case, our lifetime is the period from which a death announcemnt is made to the day they are buried. Our birth event is the announcement date and death event is the burial date.
  
@@ -76,7 +77,7 @@ The graph above shows that it there is no much difference between a married pers
    
    
    
-   # Prediction of Fundraising or not 
+   ##Prediction of fundraising  
    Since the problem we are trying to solve is a classification problem. I  tried out a bunch of classification model to get the best prediction possible. The models are:
   -Linear regression <br>
   -AdaBoost Classifier<br>
@@ -88,12 +89,12 @@ The graph above shows that it there is no much difference between a married pers
 I used ***confusion matrix, F1 score, sensitivity, and specificity*** to measure the performance of my models
    
 My best performing model is RandomForest with crossvalidation for feature selection.
-Applying cross validation selected 8 features as the important features to predict Fundraising. The 8 features are 
-***'Size', 'Word_Count', 'No_of_Children', 'Significant_Children','Significant_Relatives', 'Announce_to_Burial', 'No_of_Relatives', 'County_Burial'***.
+Applying cross validation selected 8 features as the important features to predict Fundraising. The 8 features are :
+'Size' <br> 'Word_Count',<br> 'No_of_Children',<br> 'Significant_Children',<br>'Significant_Relatives', <br>'Announce_to_Burial', <br>'No_of_Relatives', 'County_Burial'.<br>
 
 I divided my dataset into 80% for training and 20% for testing. Below are the results from Random Forest
 
-  ### Results
+  ###### Results
  -F1 score: ***0.8115***<br>
  -sensitivity:***0.79245***<br>
  -specificity:***0.7166***<br>
