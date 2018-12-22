@@ -24,5 +24,7 @@ More on data cleaning can be found in the ***data_cleaning*** notebook file
 
 
 ## Data Analysis 
-
-
+ How likely is the death of a Female person call for a fundraising as compared to a Male person?
+ 
+ ![alt text](https://raw.githubusercontent.com/nlubalo/Death-Market-Kenya/master/imgs/gender.png)
+ The graph above shows that it there is no much difference between a female or a male death calling for fundraising. So    gender on its own cannot be a deciding factor
