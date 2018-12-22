@@ -8,5 +8,7 @@ The dataset has total of total of ***1291*** data points ***39*** features. It h
 
 ![alt text](https://raw.githubusercontent.com/nlubalo/Death-Market-Kenya/imgs/missing_data.png)
 
+[[https://github.com/username/repository/blob/master/img/octocat.png|alt=octocat]]
 
 
+[[https://github.com/nlubalo/Death-Market-Kenya/blob/master/imgs/missing_data.png|alt=octocat]]
