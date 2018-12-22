@@ -24,15 +24,22 @@ More on data cleaning can be found in the ***data_cleaning*** notebook file
 
 
 ## Data Analysis 
- 1. How likely is the death of a Female person call for a fundraising as compared to a Male person?
+ #### 1. How likely is the death of a Female person call for a fundraising as compared to a Male person?
  
  ![alt text](https://raw.githubusercontent.com/nlubalo/Death-Market-Kenya/master/imgs/gender.png)
  
- The graph above shows that it there is no much difference between a female or a male death calling for fundraising. So    gender on its own cannot be a deciding factor
+ The graph above shows the percentage likelihood of a male and female death calling for a fundraising.We can see that there is no much difference between a female or a male death calling for fundraising. So gender on its own cannot be a deciding factor
 
- 2. How likely is the death of a Married person call for a fundraising as compared to a Single person?
+ #### 2. How likely is the death of a Married person call for a fundraising as compared to a Single person?
 
   ![alt text](https://raw.githubusercontent.com/nlubalo/Death-Market-Kenya/master/imgs/Married.png)
   
 The graph above shows that it there is no much difference between a married person or a single person's death calling for  fundraising. So Marital status on its own cannot be a deciding factor whether a fundraising will be done
+
+ #### 3. How likely is a Colored obituary predict a fundraising as compared to a black and white one?
+ 
+  ![alt text](https://raw.githubusercontent.com/nlubalo/Death-Market-Kenya/master/imgs/Color.png)
+  
+  Color of an obituary also not a good indicator of whether a fundraising will be called or not.
+ 
   
