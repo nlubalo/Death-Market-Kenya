@@ -67,8 +67,30 @@ The graph above shows that it there is no much difference between a married pers
  
   ![alt text](https://raw.githubusercontent.com/nlubalo/Death-Market-Kenya/master/imgs/survival.png)
      
- 
+   ###### Interppretation
+   At day zero we have 100% of the dead people still not burried. That means no one is buried before the announcemnt goes is 
+   made. 
+   Between day 1 and 4 very many people are burried. i.e most burials happen from the 1st to the 4th day of the announcemnet.
+   By day 5, we have 50% chance of being burried.
+   There is a vey small chance of being burried after day 15.  Infact the probability of being burried after day 15 is only 0.1. 
+   
+   
+   
+   # Prediction of Fundraising or not 
+   Since the problem we are trying to solve is a classification problem. I  tried out a bunch of classification model to get the best prediction possible. The models are:
+  -Linear regression 
+  -AdaBoost Classifier 
+  -Random forest
+  -Decision Tree 
+ I will only explain the results of the model that performed well. The rest of the models can be found in the prediction notebook file.
 
+###### Measure of Accuracy
+I used confusion matrix, F1 score, sensitivity, and specificity to measure the performance of my models
+   
+
+
+   
+   
 
    
 
